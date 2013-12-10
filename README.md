@@ -8,6 +8,7 @@ This assumes you are using pip to manage your python packages!
 
 ```bash
 git clone https://github.com/caisbalderas/django-cms-boilerplate.git
+cd django-cms-boilerplate
 pip install -r requirements.txt
 python manage.py syncdb —all
 python manage.py migrage —fake
