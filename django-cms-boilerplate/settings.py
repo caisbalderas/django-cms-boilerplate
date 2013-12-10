@@ -1,4 +1,4 @@
-## Django settings for DjangoCmsProj project.
+## Django settings for django-cms-boilerplate project.
 import os
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP  #for django suit
 from django.utils.crypto import get_random_string
@@ -189,10 +189,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ) + CMS_MIDDLEWARE_CLASSES
 
-ROOT_URLCONF = 'DjangoCmsProj.urls'
+ROOT_URLCONF = 'django-cms-boilerplate.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'DjangoCmsProj.wsgi.application'
+WSGI_APPLICATION = 'django-cms-boilerplate.wsgi.application'
 
 TEMPLATE_DIRS = (
     os.path.join(PROJECT_PATH, "templates"),
